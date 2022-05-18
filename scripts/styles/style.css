@@ -1,0 +1,10 @@
+.login{
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
