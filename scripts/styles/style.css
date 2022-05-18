@@ -27,10 +27,12 @@
     text-align: center;
     margin-top: 8%;
     font-size: 25px;
+    position: fixed;
 }
 
 .img {
     width: 100%;
+    position: fixed;
 }
 
 *{
