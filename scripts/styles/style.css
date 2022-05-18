@@ -12,11 +12,25 @@
     background-color: whitesmoke;
     position: fixed;
     text-align: center;
+    border-radius: 5%;
+}
+
+.login2 {
+    margin-top: 12%;
+}
+
+.login2 p {
+    padding-bottom: 2%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 25px;
 }
 
 .img {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 *{
