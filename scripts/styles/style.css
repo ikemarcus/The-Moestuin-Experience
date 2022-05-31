@@ -33,3 +33,9 @@ html, body {
   ::-webkit-scrollbar-thumb:hover {
     background: darkgreen; 
   }
+
+.floatright{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
