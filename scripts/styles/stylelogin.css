@@ -1,0 +1,65 @@
+.login{
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    position: fixed;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.login2 {
+    margin-top: 12%;
+}
+
+.login2 p {
+    padding-bottom: 2%;
+}
+
+.text {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 25px;
+    position: absolute;
+    left: 36%;
+    color: white;
+    font-weight: bolder;
+}
+
+.img {
+    width: 100%;
+    position: fixed;
+}
+
+.inp {
+    background-color: #f2f3f4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
