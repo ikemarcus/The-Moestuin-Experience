@@ -5,105 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scripts/styles/styleplantje.css">
+    <link rel="stylesheet" href="scripts/styles/styleheadertracking.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Moestuin Test</title>
 </head>
-<body>
-    <style>
-        body {
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .topnav {
-          position: relative;
-          overflow: hidden;
-          background-color: whitesmoke;
-        }
-        
-        .topnav a {
-          float: left;
-          color: black;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        .topnav a:hover {
-          background-color: #ddd;
-          color: black;
-          font-weight: bold;
-        }
-        
-        .topnav a.active {
-          background-color: #9998;
-          color: white;
-          text-decoration: wavy;
-        }
-        
-        .topnav-centered a {
-          float: none;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-        
-        .topnav-right {
-          float: right;
-        }
-        
-        @media screen and (max-width: 600px) {
-          .topnav a, .topnav-right {
-            float: none;
-            display: block;
-          }
-          
-          .topnav-centered a {
-            position: relative;
-            top: 0;
-            left: 0;
-            transform: none;
-          }
-          
-          .ct {
-            padding-left: 40px;
-          }
-        }
-
-        
-        </style>
-    <div class="topnav">
-        
-        <div class="topnav-centered">
-          <a href="boeren.html">Onze Boeren</a>
+    <body>
+        <div class="topnav">
+            <div class="topnav-centered">
+            <a href="boeren.html">Onze Boeren</a>
+            </div>
+            <a style="margin-left: 30%;" class="active" href="tracking.html">Jouw Plant</a>
+            <div style="margin-right: 30%;" class="topnav-right">
+            <a href="tracking.html">Aanbod</a>
+            </div>
         </div>
-        
-        <a style="margin-left: 30%;" class="active" href="headerindex.html">Jouw Plant</a>
-        
-        <div style="margin-right: 30%;" class="topnav-right">
-          <a href="headerindex copy 2.html">Aanbod</a>
+        <div class="row">
+            <div class="column1">
+                <img src="img/mais.jpg" alt="" class="image1">
+            </div>
+            <div class="column2">
+                <h2>Maïs(zea mays) <br>
+                Boer Evert - Uden</h2>
+                <hr>
+                <img src="img/plan.png" alt="" class="image2">
+            </div>
+            <div class="column3">
+                <h2 id="extrainfo">15 Maïskolven <br>
+                onbewerkt - biologisch</h2>
+                <hr>
+                <p class="scrolltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nobis numquam alias deserunt voluptatum asperiores eum explicabo similique ea itaque sunt dignissimos recusandae qui atque earum repudiandae magni. Distinctio, officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa facilis odio repellendus. Cum consectetur ratione sed explicabo praesentium. Voluptates, ducimus? Quibusdam suscipit illum aspernatur molestiae, provident vitae reprehenderit ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias laborum voluptatem ea, vitae maxime tenetur beatae! Delectus, aut laborum quod quidem consectetur rem expedita molestiae autem at voluptatum perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sapiente quae dolore beatae dignissimos nostrum quam perspiciatis est saepe iusto? Nam architecto possimus molestias sed optio voluptatem fuga asperiores necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat consequuntur quasi eum voluptate rerum quis, quos autem harum quam sequi et, sapiente eligendi delectus quidem dolore repellendus laudantium enim debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem eius enim porro libero dolorem ab. Et temporibus, repellendus quia fugit magnam accusantium earum alias doloremque voluptate a mollitia ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quasi illum, minus perferendis earum nam! Libero minus natus veniam illo aliquid animi, sed expedita nam nobis cupiditate accusantium corrupti? Tempore.</p>
+            </div>
         </div>
-        
-      </div>
-
-    <div class="row">
-      <div class="column1">
-        <img src="img/mais.jpg" alt="" class="image1">
-      </div>
-      <div class="column2">
-        <h2>Maïs(zea mays) <br>
-        Boer Evert - Uden</h2>
-        <hr>
-        <img src="img/plan.png" alt="" class="image2">
-      </div>
-      <div class="column3">
-        <h2 id="extrainfo">15 Maïskolven <br>
-        onbewerkt - biologisch</h2>
-        <hr>
-        <p class="scrolltext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nobis numquam alias deserunt voluptatum asperiores eum explicabo similique ea itaque sunt dignissimos recusandae qui atque earum repudiandae magni. Distinctio, officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit culpa facilis odio repellendus. Cum consectetur ratione sed explicabo praesentium. Voluptates, ducimus? Quibusdam suscipit illum aspernatur molestiae, provident vitae reprehenderit ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias laborum voluptatem ea, vitae maxime tenetur beatae! Delectus, aut laborum quod quidem consectetur rem expedita molestiae autem at voluptatum perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sapiente quae dolore beatae dignissimos nostrum quam perspiciatis est saepe iusto? Nam architecto possimus molestias sed optio voluptatem fuga asperiores necessitatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat consequuntur quasi eum voluptate rerum quis, quos autem harum quam sequi et, sapiente eligendi delectus quidem dolore repellendus laudantium enim debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem eius enim porro libero dolorem ab. Et temporibus, repellendus quia fugit magnam accusantium earum alias doloremque voluptate a mollitia ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quasi illum, minus perferendis earum nam! Libero minus natus veniam illo aliquid animi, sed expedita nam nobis cupiditate accusantium corrupti? Tempore.</p>
-      </div>
-    </div>
-</body>
+    </body>
 </html>
