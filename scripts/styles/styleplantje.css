@@ -5,20 +5,22 @@
 
 /* Create three equal columns that floats next to each other */
 .column1 {
+    padding-left: 6vw;
+    padding-right: 1vw;
     float: left;
-    width: 27%;
-    height: 650px;
+    width: 32%;
+    height: 640px;
     margin-right: 1%;
 }
 .column2 {
     float: left;
     width: 25%;
-    height: 650px;
+    height: 640px;
 }
 .column3 {
     float: left;
     width: 32%;
-    height: 650px;
+    height: 640px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -30,22 +32,44 @@
 .image1{
     margin-top: 20px;
     width: 100%;
-    height: 96%;
+    height: 95%;
     border-radius: 30px;
 }
 
 .image2{
     width: 400px;
-    height: 570px;
+    height: 550px;
 }
 
-.scrolltext{
-    overflow-y: scroll;
-    font-size: larger;
-    height: 525px;
-    margin-left: 1vw;
+.containerwrapper {
+    position: relative;
+    height: 490px;
+    padding: 0;
+    margin: 0 auto;
+    top: 42%;
     
-}
+    left: 50%;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  
+  .containerwrapper:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, white);
+    height: 30%;
+    width: calc(100% - 17px);
+    pointer-events: none;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
 
 #extrainfo{
     color: grey;
@@ -83,4 +107,54 @@
     padding-top: 15px;
     padding-right: 15px;
     pointer-events: none;
+  }
+
+  .title1{
+    font-family: social-gothic, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  .title2{
+    font-family: navigo, sans-serif;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    color: grey;
+  }
+
+  .extrainfo1{
+    font-family: museo-sans, sans-serif;
+    list-style: none;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    color: grey;
+    
+  }
+
+  .extrainfo2{
+    font-family: museo-sans, sans-serif;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 100;
+    color: grey;
+  }
+
+  #imgchat{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 170px;
   }
