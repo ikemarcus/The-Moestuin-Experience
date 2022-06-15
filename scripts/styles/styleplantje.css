@@ -44,6 +44,7 @@
     font-size: larger;
     height: 525px;
     margin-left: 1vw;
+    
 }
 
 #extrainfo{
@@ -72,4 +73,14 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(30, 30, 30); 
+  }
+
+  .bi{
+    position: absolute;
+    font-size: 26px;
+    right: 0;
+    top: 0;
+    padding-top: 15px;
+    padding-right: 15px;
+    pointer-events: none;
   }
