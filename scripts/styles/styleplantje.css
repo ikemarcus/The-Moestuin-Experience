@@ -38,7 +38,7 @@
 
 .image2{
     width: 400px;
-    height: 550px;
+    height: 525px;
 }
 
 .containerwrapper {
@@ -164,4 +164,10 @@
   }
   #hr2{
     top: 0;
+  }
+
+  #limais{
+    list-style: none;
+    padding-bottom: 5px;
+    font-weight: bold;
   }
