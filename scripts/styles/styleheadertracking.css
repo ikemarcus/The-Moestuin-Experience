@@ -59,3 +59,43 @@ body {
     padding-left: 40px;
     }
 }
+
+.navbartop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    gap: 6%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: black;
+    list-style: none;    
+    text-decoration: 0;
+}
+
+#imglogo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    margin-left: 6%;
+    margin-top: 5px;
+    
+}
+
+#accounticon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    padding-right: 5%;
+    margin-top: 5px;
+    
+}
+
+.vl {
+    border-left: 2px solid darkgreen;
+    height: 15px;
+  }
