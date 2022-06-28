@@ -75,6 +75,12 @@ body {
     text-decoration: inherit;
 }
 
+#acc{
+    position: absolute;
+    top: 0;
+    margin-right:  150px;
+}
+
 #imglogo{
     position: absolute;
     top: 0;
